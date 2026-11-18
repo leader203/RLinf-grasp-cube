@@ -11,11 +11,12 @@ RLinf 抓取-搬运（grasp & cube transport）仿真采集数据集。
 
 | 项 | 值 |
 |---|---|
-| episodes | **2483** |
-| frames | 1,831,522 |
+| episodes | **2486** |
+| frames | 1,833,604 |
 | 原始体积 | 78.7 GiB |
 | 打包分卷 | 45 × 1800 MiB |
 | 采集成功率 | ~51% |
+| 帧率 | 30 fps |
 | 机器人 | 单臂 + 平行夹爪（prismatic gripper） |
 
 8 个子数据集 `groot_1` … `groot_8`，由 3 台机器 × 各 2 个仿真实例并行采集：
@@ -29,7 +30,7 @@ RLinf 抓取-搬运（grasp & cube transport）仿真采集数据集。
 | groot_5 | 421 | node-B |
 | groot_6 | 440 | node-B |
 | groot_7 | 347 | node-C |
-| groot_8 | 346 | node-C |
+| groot_8 | 349 | node-C |
 
 ## 下载
 
